@@ -1,6 +1,6 @@
 const express = require("express"),
   app = express(),
-  PORT = process.env.PORT || 8080,
+  PORT = process.env.PORT || 3333,
   server = require("http").Server(app);
 
 app.use(express.static("./../"));
