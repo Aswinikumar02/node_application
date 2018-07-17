@@ -5,7 +5,7 @@
   "main": "bundle.js",
   "scripts": {
     "dev": "webpack-dev-server --hot",
-    "start": "webpack -p && cd server && nodemon -L ./server.js"
+    "start": "webpack -p && cd server && forever start ./server.js"
   },
   "author": "Navin Prasad",
   "license": "ISC",
